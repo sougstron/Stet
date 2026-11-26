@@ -1,6 +1,16 @@
 # Stet agent operating guide
 
-Work only in `/home/fredrick/Projects/linux-apps/notes`. Reading other paths (for example `/home/fredrick/Projects/linux-apps/hertz` or `/usr/share/omarchy`) is fine; do not create a parallel repository.
+## This fork
+
+This repository is `sougstron/Stet`, a personal fork of [PixDevsApps/Stet](https://github.com/PixDevsApps/Stet) (remote `upstream`). Its direction: Stet shaped to its owner's own needs, not to upstream's roadmap. Changes upstream would not accept are fine here; upstream's non-goals and scope lists (for example "no Markdown preview") do not bind this fork. Keep upstream's architecture rules and checks below so rebasing onto new upstream releases stays cheap.
+
+- Work in this checkout (`/home/shmon/Github/tests/Stet`). Upstream's paths under `/home/fredrick/...` do not exist here.
+- Work is tracked as kanban4ai tasks for this project. A task's own instructions are its authorization; the PLAN.md authorization log below is upstream's process and is not required here.
+- Omarchy is not installed on this machine; the desktop is plain Hyprland.
+- Do not put plans or roadmaps in this file.
+
+The sections below are upstream's guide, kept as is.
+
 
 The product is **Stet** ([ADR-010](docs/DECISIONS.md), accepted 2026-09-30). "Notes" was the working name during research and M0: the project folder keeps it, and the spike reports and older dated entries still use it.
 
